@@ -234,7 +234,7 @@ type App struct {
 type ReportFilter struct {
 	StartTime                  string   `json:"startTime"`
 	EndTime                    string   `json:"endTime"`
-	TimeZone                   TimeZone `json:"timeZone"`
+	TimeZone                   string   `json:"timeZone"`
 	Granularity                string   `json:"granularity"`
 	Selector                   Selector `json:"selector"`
 	GroupBy                    []string `json:"groupBy"`
